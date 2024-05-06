@@ -1,0 +1,72 @@
+Data do sistema operacional: 2024/05/06 15:15
+Data do primeiro registro de venda:
+02/12/2022
+Data do último registro de venda:
+24/04/2023
+Quantidade total de itens diferentes vendidos (excluindo cabeçalho):
+      67
+As 10 primeiras linhas do arquivo backup-dados-20240506.csv:
+1,bolsa verde,5,29.90,02/12/2022
+2,calça turquesa,8,90.00,05/12/2022
+3,sapato roxo,9,150.00,10/01/2023
+4,meia lilás,54,5.00,09/01/2023
+5,cinto rosa,7,15.00,05/01/2023
+6,camisa verde,7,40.00,06/01/2023
+7,bermuda,6,50.00,07/01/2023
+8,tênis,4,120.00,08/01/2023
+9,bone,12,10.00,09/01/2023
+10,casaco,2,150.00,10/01/2023
+Data do sistema operacional: 2024/05/06 14:10
+Data do primeiro registro de venda:
+01/12/2022
+Data do último registro de venda:
+31/03/2023
+Quantidade total de itens diferentes vendidos (excluindo cabeçalho):
+      66
+As 10 primeiras linhas do arquivo backup-dados-20240506.csv:
+1,bolsa azul,5,29.90,01/12/2022
+2,calça preta,8,90.00,23/12/2022
+3,sapato amarelo,9,150.00,10/01/2023
+4,meia vermelha,54,5.00,12/01/2023
+5,cinto rosa,7,15.00,05/01/2023
+6,camisa,7,40.00,06/01/2023
+7,bermuda,6,50.00,07/01/2023
+8,tênis,4,120.00,08/01/2023
+9,bone,12,10.00,09/01/2023
+10,casaco,2,150.00,10/01/2023
+Data do sistema operacional: 2024/05/06 14:22
+Data do primeiro registro de venda:
+05/12/2022
+Data do último registro de venda:
+31/03/2023
+Quantidade total de itens diferentes vendidos (excluindo cabeçalho):
+      66
+As 10 primeiras linhas do arquivo backup-dados-20240506.csv:
+1,bolsa amarela,5,29.90,05/12/2022
+2,calça laranja,8,90.00,08/12/2022
+3,sapato verde,9,150.00,10/01/2023
+4,meia vermelha,54,5.00,09/01/2023
+5,cinto rosa,7,15.00,05/01/2023
+6,camisa verde,7,40.00,06/01/2023
+7,bermuda,6,50.00,07/01/2023
+8,tênis,4,120.00,08/01/2023
+9,bone,12,10.00,09/01/2023
+10,casaco,2,150.00,10/01/2023
+Data do sistema operacional: 2024/05/06 14:26
+Data do primeiro registro de venda:
+02/12/2022
+Data do último registro de venda:
+24/04/2023
+Quantidade total de itens diferentes vendidos (excluindo cabeçalho):
+      67
+As 10 primeiras linhas do arquivo backup-dados-20240506.csv:
+1,bolsa verde,5,29.90,02/12/2022
+2,calça turquesa,8,90.00,05/12/2022
+3,sapato roxo,9,150.00,10/01/2023
+4,meia lilás,54,5.00,09/01/2023
+5,cinto rosa,7,15.00,05/01/2023
+6,camisa verde,7,40.00,06/01/2023
+7,bermuda,6,50.00,07/01/2023
+8,tênis,4,120.00,08/01/2023
+9,bone,12,10.00,09/01/2023
+10,casaco,2,150.00,10/01/2023
