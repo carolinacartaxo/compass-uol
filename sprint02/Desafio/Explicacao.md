@@ -87,4 +87,3 @@ SELECT idLocacao, idCliente, idCarro, kmCarro, idcombustivel, dataLocacao, horaL
 FROM tb_locacao;
 ```
 
- ![Image](evidencias/concessionaria_normalizada_diagrama_relacional.sqlite.png)
