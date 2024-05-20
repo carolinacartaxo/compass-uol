@@ -28,5 +28,14 @@ Também desenvolvi websites responsivos com Bootstrap e uma aplicação de previ
 </br>
 → Desafio - Data & Anlytics - Execução de script .sh com base de dados e realização de relatórios
 </br>
+</br>
 
+## Sprint 2
+2. [Sprint 2](sprint02/Desafio/Explicacao.md)
+</br>
+→ SQL para Análise de Dados
+</br>
+→ Desafio - Data Analytics - Normalização de tabelas e tipos de modelagem
+</br>
+→ AWS Skill Builder
 
