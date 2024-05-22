@@ -1,4 +1,4 @@
-#Página com os exercícios da sprint 02
+# Página com os exercícios da sprint 02
 
 ## Exercício 1
 
