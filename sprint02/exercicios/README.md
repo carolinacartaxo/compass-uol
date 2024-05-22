@@ -1,8 +1,8 @@
+#Página com os exercícios da sprint 02
+
 ## Exercício 1
 
- Exportar o resultado da query que obtém os 10 livros mais caros para um arquivo CSV
-Utilizar a ; como separador
-Respeitar a sequência de colunasPágina com os exercícios da sprint 02
+ Exportar o resultado da query que obtém os 10 livros mais caros para um arquivo CSV. Utilizar a ; como separador. Respeitar a sequência de colunas
 ```
 SELECT 
 	livro.cod AS CodLivro,
@@ -23,9 +23,7 @@ DESC LIMIT 10
 
 ## Exercício 2
 
-Exportar o resultado da query que obtém as 5 editoras com maior quantidade de livros na biblioteca para um arquivo CSV
-Utilizar | como separador
-Respeitar a sequência de colunas
+Exportar o resultado da query que obtém as 5 editoras com maior quantidade de livros na biblioteca para um arquivo CSV. Utilizar | como separador. Respeitar a sequência de colunas
 ```
 SELECT 
 	editora.codeditora AS CodEditora,
