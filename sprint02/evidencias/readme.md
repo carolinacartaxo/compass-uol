@@ -1,1 +1,1 @@
-Página com as imagens e desenhos requeridos no desafio 
+Página com as imagens, diagramas e desenhos requeridos no desafio 
