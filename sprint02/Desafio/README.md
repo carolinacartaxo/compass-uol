@@ -86,7 +86,7 @@ INSERT INTO Locacoes (idLocacao, idCliente, idCarro, kmCarro, idcombustivel, dat
 SELECT idLocacao, idCliente, idCarro, kmCarro, idcombustivel, dataLocacao, horaLocacao, qtdDiaria, vlrDiaria, dataEntrega, horaEntrega, idVendedor
 FROM tb_locacao;
 ```
-## Explicação dos passos seguidos para a criação da Modelagem Dimensional da tabela "concessionaria"
+## Explicação dos passos seguidos para a criação da Modelagem Dimensional da tabela "concessionaria" normalizada
 
 1. Criei as views das minhas tabelas de dimensões
 2. Renomeei as colunas nelas para ficar mais fácil de realizar a consulta
@@ -95,7 +95,7 @@ FROM tb_locacao;
 5. Nesta fiz alguns joins para correlacionar as chaves estrangeiras de id com a das tabelas de dimensões 
 
 ```
-REATE VIEW FatoLocacoes AS
+CREATE VIEW FatoLocacoes AS
 SELECT
     L.idLocacao AS "ID da locação",
     L.qtdDiaria AS "Quantidade de diárias",
