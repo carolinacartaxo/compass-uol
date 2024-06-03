@@ -20,7 +20,7 @@ Também desenvolvi websites responsivos com Bootstrap e uma aplicação de previ
 # Sprints 
 
 ## Sprint 1 
-1. [Sprint 1](sprint_01/Desafio.md)
+1. [Sprint 1](sprint_01/README.md)
 </br>
 → Linux para Desenvolvedores 
 </br>
