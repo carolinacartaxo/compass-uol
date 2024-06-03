@@ -31,7 +31,7 @@ Também desenvolvi websites responsivos com Bootstrap e uma aplicação de previ
 </br>
 
 ## Sprint 2
-2. [Sprint 2](sprint02/Desafio/README.md)
+2. [Sprint 2](sprint02/README.md)
 </br>
 → SQL para Análise de Dados
 </br>
@@ -42,7 +42,7 @@ Também desenvolvi websites responsivos com Bootstrap e uma aplicação de previ
 </br>
 
 ## Sprint 3
-3. [Sprint 3](sprint_03/Desafio/desafio.ipynb)
+3. [Sprint 3](sprint_03/README.md)
 </br>
 → Python - Curso completo do básico ao avançado
 </br>
