@@ -1,4 +1,4 @@
-# Explicação do Desafio da Sprint 01 
+# Explicação do Desafio da Sprint 02 
 
 ## Explicação dos passos seguidos para a normalização da tabela "concessionaria"
 
