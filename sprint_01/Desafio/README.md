@@ -9,7 +9,7 @@
   
 
 1. Criei um diretório chamado ecommerce e inseri o arquivo dados_de_vendas.csv nele
- ![Image](evidencias/01.png)
+ ![Image](evidencias/Desafio/01.png)
 
 2. Criei um arquivo executável denominado 'processamento_de_vendas.sh', que realizou as seguintes tarefas, usando comandos Linux (Ubuntu 22):
 
