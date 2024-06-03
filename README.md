@@ -35,7 +35,19 @@ Também desenvolvi websites responsivos com Bootstrap e uma aplicação de previ
 </br>
 → SQL para Análise de Dados
 </br>
-→ Desafio - Data Analytics - Normalização de tabelas e tipos de modelagem
+→ Desafio - Data & Analytics - Normalização de tabelas e tipos de modelagem
 </br>
 → AWS Skill Builder
+</br>
+</br>
 
+## Sprint 3
+3. [Sprint 3](sprint_03/Desafio/desafio.ipynb)
+</br>
+→ Python - Curso completo do básico ao avançado
+</br>
+→ Desafio - Data & Analytics - Limpeza e análise de dados com as bibliotecas Pandas e Matplotlib
+</br>
+→ AWS Skill Builder
+</br>
+</br>
