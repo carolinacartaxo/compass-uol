@@ -1,1 +1,1 @@
-Pasta com os estregáveis da Sprint 01
+Pasta com os entregáveis da Sprint 01
