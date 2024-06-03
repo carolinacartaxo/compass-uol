@@ -35,7 +35,7 @@ Também desenvolvi websites responsivos com Bootstrap e uma aplicação de previ
 </br>
 → SQL para Análise de Dados
 </br>
-→ Desafio - Data & Analytics - Normalização de tabelas e tipos de modelagem
+→ Desafio - Data & Analytics - Normalização de tabelas e tipos de modelagem SQL
 </br>
 → AWS Skill Builder
 </br>
