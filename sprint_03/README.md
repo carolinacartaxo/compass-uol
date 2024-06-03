@@ -1,1 +1,1 @@
-Pasta com os entregáveis da Sprint 03
+Pasta com os entregáveis da Sprint 03, quais sejam: os exercícios requeridos com a base de dados actors.csv e o notebook referente às análises feitas com uso das bibliotecas Pandas e Matplotlib na base de dados googleplaystore.csv
