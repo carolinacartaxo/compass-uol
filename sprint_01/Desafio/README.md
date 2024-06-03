@@ -9,7 +9,7 @@
   
 
 1. Criei um diretório chamado ecommerce e inseri o arquivo dados_de_vendas.csv nele
- ![Image](evidencias/Desafio/01.png)
+ ![Image](/sprint_01/evidencias/01.png)
 
 2. Criei um arquivo executável denominado 'processamento_de_vendas.sh', que realizou as seguintes tarefas, usando comandos Linux (Ubuntu 22):
 
@@ -33,32 +33,32 @@
   </br>
   </br>
   
-![Image](evidencias/02.png)
+![Image](/sprint_01/evidencias/02.png)
 
   </br>
   </br>
   
-![Image](evidencias/03.png)
+![Image](/sprint_01/evidencias/03.png)
 
   </br>
   </br>
   
-![Image](evidencias/04.png)
+![Image](/sprint_01/evidencias/04.png)
 
   </br>
   </br>
   
-![Image](evidencias/05.png)
+![Image](/sprint_01/evidencias/05.png)
 
   </br>
   </br>
   
-![Image](evidencias/06.png)
+![Image](/sprint_01/evidencias/06.png)
 
   </br>
   </br>
   
-![Image](evidencias/07.png)
+![Image](/sprint_01/evidencias/07.png)
 
   </br>
   </br>
@@ -67,43 +67,43 @@
 </br>
 </br>
 
-![Image](evidencias/08.png)
+![Image](/sprint_01/evidencias/08.png)
 </br>
 </br>
 
-![Image](evidencias/09.png)
+![Image](/sprint_01/evidencias/09.png)
 </br>
 </br>
 
-![Image](evidencias/10.png)
+![Image](/sprint_01/evidencias/10.png)
 </br>
 </br>
 6. Por fim, criei um script chamado ⁠ consolidador_de_processamento_de_vendas.sh ⁠ que concatenou todos os relatórios gerados e gerou outro arquivo chamado ⁠ relatorio_final.txt ⁠.
-![Image](evidencias/09.png)
+![Image](/sprint_01/evidencias/09.png)
 </br>
 </br>
-![Image](evidencias/10.png)
+![Image](/sprint_01/evidencias/10.png)
 </br>
 </br>
-![Image](evidencias/11.png)
+![Image](/sprint_01/evidencias/11.png)
 </br>
 </br>
-![Image](evidencias/12.png)
+![Image](/sprint_01/evidencias/12.png)
 </br>
 </br>
-![Image](evidencias/13.png)
+![Image](/sprint_01/evidencias/13.png)
 </br>
 </br>
-![Image](evidencias/14.png)
+![Image](/sprint_01/evidencias/14.png)
 </br>
 </br>
-![Image](evidencias/15.png)
+![Image](/sprint_01/evidencias/15.png)
 </br>
 </br>
-![Image](evidencias/16.png)
+![Image](/sprint_01/evidencias/16.png)
 </br>
 </br>
-![Image](evidencias/17.png)
+![Image](/sprint_01/evidencias/17.png)
 </br>
 </br>
 
