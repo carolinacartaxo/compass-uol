@@ -31,7 +31,7 @@ Também desenvolvi websites responsivos com Bootstrap e uma aplicação de previ
 </br>
 
 ## Sprint 2
-2. [Sprint 2](sprint02/Desafio/Explicacao.md)
+2. [Sprint 2](sprint02/Desafio/README.md)
 </br>
 → SQL para Análise de Dados
 </br>
