@@ -3,6 +3,6 @@ Pasta com os entregáveis da Sprint 01 referente à criação de script .sh que:
 # Desafio
 
 
-1. [Explicação do Desafio.](sprint_01/Desafio)
+1. [Explicação do Desafio.](/sprint_01/Desafio/README.md)
 
 
