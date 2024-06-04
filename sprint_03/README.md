@@ -3,7 +3,7 @@ Pasta com os entregáveis da Sprint 03, quais sejam: os exercícios requeridos c
 
 # Desafio
 
-[Explicação do Desafio](/sprint_03/Desafio/desafio.ipynb)
+[Resolução e explicação do Desafio](/sprint_03/Desafio/desafio.ipynb)
 
 # Exercícios
 
