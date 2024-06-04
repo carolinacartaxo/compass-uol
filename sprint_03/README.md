@@ -20,9 +20,9 @@ Passoa a passo da explicação do código em questão:
 7. Caso algum caractere seja encontrado, salvaremos a posição [integer] dele na lista n
 8. Caso n seja igual a 2, encontramos a palavra.
    Devemos:
-  1. colocar a palavra encontrada em substring,
-  2. Separar o resto da linha em lista por vírgula
-  3. Concatenar a palavra e a lista em um único dicionário
+  8.1. colocar a palavra encontrada em substring,
+  8.2. Separar o resto da linha em lista por vírgula
+  8.3. Concatenar a palavra e a lista em um único dicionário
 9. Cada coluna é acrescentada ao dicionário vazio "Value" por meio da variável insert
 10. Ao final do loop da linha, devemos adicionar o dicionário "Value" na lista dataset para montar a nossa base de dados
 
