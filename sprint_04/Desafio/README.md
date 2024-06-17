@@ -28,7 +28,7 @@ Após a criação do script, rodei os seguintes comandos no terminal dentro do d
 #### Comando para executar o container
 `docker run --name carguru-container carguru-image`
 
-IMAGEM DO TERMINAL
+![Image](/sprint_04/Evidencias/imagem_01.png)
 
 ## Etapa 2
 É possível reutilizar containers? Em caso positivo, apresente o comando necessário para reiniciar um dos containers parados em seu ambiente Docker? Não sendo possível reutilizar, justifique sua resposta.
@@ -41,7 +41,7 @@ Sim, é possível reutilizar containers.
 #### O comando para reiniciar um container em execução é:
 `docker restart carguru-container`
 
-IMAGEM DO TERMINAL
+![Image](/sprint_04/Evidencias/imagem_02.png)
 
 ## Etapa 3
 Agora vamos exercitar a criação de um container que permita receber inputs durante sua execução.
@@ -90,9 +90,8 @@ Tal qual a etapa anterior, vou criar um arquivo Dockerfile no mesmo diretório d
 #### Comando utilizado para criar a imagem mascarar-dados:
 `docker build -t mascarar-dados .`
 
-IMAGEM DO TERMINAL
 
 Aqui vamos iniciar o container de forma interativa para recebermos o input do usuário usando 
 `docker run -it mascarar-dados`
 
-IMAGEM DO TERMINAL
+![Image](/sprint_04/Evidencias/imagem_03.png)
