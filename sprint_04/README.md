@@ -10,7 +10,7 @@ Pasta com os entregáveis da Sprint 04, quais sejam: o desafio contendo os arqui
 # Evidências
 
 
-Gráficos plotados nas análises do Desafio
+Prints com a execução do terminal
 
 
 1.[Evidencias](/sprint_04/Evidencias)
