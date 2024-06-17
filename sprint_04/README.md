@@ -3,7 +3,7 @@ Pasta com os entregáveis da Sprint 04, quais sejam: o desafio contendo os arqui
 
 # Desafio
 
-[Resolução e explicação do Desafio](/sprint_04/Desafio/)
+1.[Resolução e explicação do Desafio](/sprint_04/Desafio/)
 
 
 
@@ -13,7 +13,7 @@ Pasta com os entregáveis da Sprint 04, quais sejam: o desafio contendo os arqui
 Prints com a execução do terminal
 
 
-1.[Evidencias](/sprint_04/Evidencias)
+2.[Evidencias](/sprint_04/Evidencias)
 
 
 
@@ -22,4 +22,4 @@ Prints com a execução do terminal
 
 - Certificado do Curso AWS
   
-1.[Certificado AWS](/sprint_04/Certificados)
+3.[Certificado AWS](/sprint_04/Certificados)
