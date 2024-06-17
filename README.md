@@ -53,7 +53,7 @@ Também desenvolvi websites responsivos com Bootstrap e uma aplicação de previ
 </br>
 
 ## Sprint 4
-3. [Sprint 4](sprint_04/README.md)
+4. [Sprint 4](sprint_04/README.md)
 </br>
 → Python - Curso completo do básico ao avançado - Programação Funcional com Python
 </br>
