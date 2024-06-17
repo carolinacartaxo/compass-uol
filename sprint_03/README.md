@@ -66,6 +66,6 @@ Gráficos plotados nas análises do Desafio
 # Certificados
 
 
-- Certificado do Curso ABC
+- Certificado do Curso AWS
   
 1.[Certificado AWS](/sprint_03/Certificados)
