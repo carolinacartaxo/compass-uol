@@ -5,7 +5,7 @@
 </br>
 🎓 Sou advogada
 </br>
-💻 Estudo ciência de dados há tempo e já participei de um projeto com uma empresa de dados na área nas etapas de Data Cleaning e Data Wrangling a partir de conhecimento em Python e suas bibliotecas como a Matplotlib, Pandas e Seaborn. 
+💻 Estudo ciência de dados há um tempo e já participei de um projeto com uma empresa de dados a partir de conhecimento em Python e suas bibliotecas como a Matplotlib, Pandas e Seaborn. 
 </br>
 Também desenvolvi websites responsivos com Bootstrap e uma aplicação de previsão climática com uso de HTML, CSS, JavaScript, React e uso de APIs e bibliotecas através da plataforma internacional SheCodes.
 </br>
