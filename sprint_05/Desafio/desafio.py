@@ -11,10 +11,6 @@ object_key = 'prouni_relatorio_bolsas_2020.csv'
 with open('query.sql', 'r') as file:
     expression = file.read()
 
-# Ler a consulta SQL do arquivo .sql
-with open('query.sql', 'r') as file:
-    expression = file.read()
-
 # Executar a consulta S3 Select
 response = s3_client.select_object_content(
     Bucket=bucket_name,
