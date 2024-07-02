@@ -99,7 +99,7 @@ WHERE REGIAO_BENEFICIARIO = 'NORDESTE'
 9. Visto a impossibilidade de usar `GROUP BY`, esse foi o maior número de funções que consegui utilizar em uma única consulta
 
 A query:
-- Filtra os beneficiários que são pardos, não deficientes físicos, da região Nordeste e que estão em cursos presenciais.
+- Filtra os beneficiários que são pardos ou negros, não deficientes físicos, da região Nordeste e que estão em cursos presenciais.
 -  Calcula a diferença de anos entre a data de nascimento e a data atual para esses beneficiários.
 - Soma essas diferenças para obter a soma total das idades.
 - Conta o número de beneficiários que atendem aos critérios.
