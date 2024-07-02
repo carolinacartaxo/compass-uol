@@ -64,3 +64,14 @@ Também desenvolvi websites responsivos com Bootstrap e uma aplicação de previ
 → AWS Skill Builder
 </br>
 </br>
+
+## Sprint 5
+5. [Sprint 5](sprint_05/README.md)
+</br>
+→ AWS Skill Builder: Cloud Quest -  Cloud Practitioner
+</br>
+→ Curso padrão apra o exame: AWS Certified Cloud Practitioner (CLF-C02)
+</br>
+→ Desafio - Prática de conhecimentos AWS com o S3 Select 
+</br>
+</br>
