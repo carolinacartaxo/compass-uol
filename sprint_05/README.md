@@ -9,7 +9,7 @@ Pasta com os entregáveis da Sprint 05, quais sejam: arquivo Markdown com evidê
 # Evidências
 
 
-Prints com a execução do terminal
+Prints com a execução do código e do desafio
 
 
 2.[Evidencias](/sprint_05/Evidencias)
@@ -19,6 +19,6 @@ Prints com a execução do terminal
 # Certificados
 
 
-- Certificado do Curso AWS
+- Certificado do Curso AWS 
   
 3.[Certificado AWS](/sprint_05/Certificados)
