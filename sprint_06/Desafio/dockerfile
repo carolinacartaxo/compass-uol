@@ -1,0 +1,18 @@
+# Usar uma imagem oficial do Python como base
+FROM python:3.9-slim
+
+# Definir o diretório de trabalho no container
+WORKDIR /usr/src/app
+
+# Copiar o arquivo boto3.txt para o container
+COPY boto3.txt ./
+
+# Instalar as dependências necessárias
+RUN pip install --no-cache-dir -r boto3.txt
+
+# Copiar o código da aplicação para o container
+COPY . .
+
+# Comando para executar o script Python
+CMD [ "python", "./upload_to_s3.py" ]
+
