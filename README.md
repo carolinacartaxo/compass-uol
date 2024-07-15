@@ -75,3 +75,16 @@ Também desenvolvi websites responsivos com Bootstrap e uma aplicação de previ
 → Desafio - Prática de conhecimentos AWS com o S3 Select 
 </br>
 </br>
+
+## Sprint 6
+5. [Sprint 6](sprint_06/README.md)
+</br>
+→ AWS Skill Builder
+</br>
+→ Práticas nos laboratórios AWS dos serviços Athena, Glue, Redshift, QuickSight e EMR
+</br>
+→ Estudo sobre Data Analytics, Data Lake, Data Warehouse e serviços da AWS
+</br>
+→ Desafio - Prática de conhecimentos visto no programa até agora com Python, Docker e AWS 
+</br>
+</br>
