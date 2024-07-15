@@ -77,7 +77,7 @@ Também desenvolvi websites responsivos com Bootstrap e uma aplicação de previ
 </br>
 
 ## Sprint 6
-5. [Sprint 6](sprint_06/README.md)
+6. [Sprint 6](sprint_06/README.md)
 </br>
 → AWS Skill Builder
 </br>
