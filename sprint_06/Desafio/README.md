@@ -12,13 +12,14 @@ As perguntas serão respondidas nas próximas etapas do Desafio.
 Essa etapa do desafio consistiu em construir um código Python, que será executado dentro de um container Docker para carregar os dados locais dos arquivos csv "movies" e "series" disponibilizados um bucket no S3 da AWS.
 
 O código deve: 
-• ler os 2 arquivos (filmes e series) no formato CSV inteiros, ou seja, sem filtrar os dados.
-• utilizar a lib boto3 para carregar os dados para a AWS.
-• acessar a AWS e grava no S3, no bucket definido com RAW Zone.
+- ler os 2 arquivos (filmes e series) no formato CSV inteiros, ou seja, sem filtrar os dados.
+- utilizar a lib boto3 para carregar os dados para a AWS.
+- acessar a AWS e grava no S3, no bucket definido com RAW Zone.
 Devo criar o container Docker com um volume para armazenar os arquivos CSV e executar processo Python implementado e
 executar localmente o container docker para realizar a carga dos dados ao S3.
 
 1. Criei um código Python condizente com a documentação do boto3 para pegar meus dois arquivos csv e realizar o upload no S3
+2. Aqui usei a biblioteca datetime apenas para fins de organização na formatação de envio dos arquivos para o S3
 ```
 import boto3
 from datetime import datetime
@@ -43,8 +44,8 @@ print("Arquivos carregados com sucesso!")
 ```
 
 
-2. Após isso, fiz a criação do script dockerfile para executar o código Python em um container
-3. Criei um arquivo em texto para o docker pegar e instalar as dependências necessárias, que nesse caso é a biblioteca do boto3
+3. Após isso, fiz a criação do script dockerfile para executar o código Python em um container
+4. Criei um arquivo em texto para o docker pegar e instalar as dependências necessárias, que nesse caso é a biblioteca do boto3
 
 
 ```# Usar uma imagem oficial do Python como base
@@ -70,7 +71,7 @@ CMD [ "python", "./upload_to_s3.py" ]
 4. No terminal, eu digitei `docker build -t upload-to-s3 .` para criar a imagem.
 ![Image](/sprint_06/Evidencias/01.png)
 
-6. Em seguida, para conseguir encaminhar minhas credenciais da AWS para o boto3 mandar meus arquivos para o S3, eu coloquei no terminal `docker run -e AWS_ACCESS_KEY_ID="" -e AWS_SECRET_ACCESS_KEY="" -e AWS_SESSION_TOKEN="" upload-to-s3` e preenchi os espaços com minhas credenciais AWS.
+6. Em seguida, para conseguir encaminhar minhas credenciais da AWS para o boto3 mandar meus arquivos para o S3, eu usei o "-e", usado para definir a variável de ambiente dentro do container Docker. No terminal, digitei `docker run -e AWS_ACCESS_KEY_ID="" -e AWS_SECRET_ACCESS_KEY="" -e AWS_SESSION_TOKEN="" upload-to-s3` e preenchi os espaços com minhas credenciais AWS.
 
 ![Image](/sprint_06/Evidencias/03.png)
 
