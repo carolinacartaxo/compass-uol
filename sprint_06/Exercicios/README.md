@@ -55,9 +55,9 @@ Usei a função `ROW_NUMBER()` para dar uma classificação (rank) a cada nome d
 ## Exercício 3 - Lab AWS Lambda
 Neste exercício, apesar de realizar todo o passo a passo, o guia está desatualizado e o Lambda não possui mais a versão do Python 3.7, então o arquivo docker não funcionou pois não era compatível com as versões corretas. 
 
-Após consultar alguns colegas sobre a atividade, rodei outro script docker tentando baixar a layer necessária para a versão 3.9 do Python, porém, apesar de ter conseguido baixar a versão correta, o Lambda ainda asim deu
+Após consultar alguns colegas sobre a atividade, rodei outro script docker tentando baixar a layer necessária para a versão 3.9 do Python, porém, apesar de ter conseguido baixar a versão correta, o Lambda ainda assim alertou um erro ao tentar importar o pacote.
 
-![Image](/sprint_06/Exercicios/exercicio3/0319.png)
+
 ![Image](/sprint_06/Exercicios/exercicio3/0310.png)
 ![Image](/sprint_06/Exercicios/exercicio3/0311.png)
 ![Image](/sprint_06/Exercicios/exercicio3/0312.png)
