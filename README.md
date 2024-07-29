@@ -88,3 +88,12 @@ Também desenvolvi websites responsivos com Bootstrap e uma aplicação de previ
 → Desafio - Prática de conhecimentos visto no programa até agora com Python, Docker e AWS 
 </br>
 </br>
+
+## Sprint 7
+6. [Sprint 7](sprint_07/README.md)
+</br>
+→ Formação Spark com PySpark: curso completo para ciência e engenharia de dados
+</br>
+→ Desafio - Prática com os serviços da AWS: Lambda, S3 e CloudWatch. Uso de práticas com API e arquivos JSON
+</br>
+</br>
