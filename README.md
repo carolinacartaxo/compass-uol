@@ -90,7 +90,7 @@ Também desenvolvi websites responsivos com Bootstrap e uma aplicação de previ
 </br>
 
 ## Sprint 7
-6. [Sprint 7](sprint_07/README.md)
+7. [Sprint 7](sprint_07/README.md)
 </br>
 → Formação Spark com PySpark: curso completo para ciência e engenharia de dados
 </br>
