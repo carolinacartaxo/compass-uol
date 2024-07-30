@@ -1,16 +1,16 @@
 # Explicação do Desafio 
-## Primeiro passo: fazer as perguntas
-1. Top 10 filmes mais votados e melhor avaliados dos estados unidos, dos gêneros crime ou guerra, lançados nos últimos 4 anos (2019-2024) 
-2. Existe alguma relação entre a popularidade dos atores e o top 10 filmes de guerra ou crime mais populares nos últimos 4 anos? E com o top 10 da pergunta anterior? 
+## Primeiro passo: Perguntas a serem respondidas
+1. Top 10 filmes mais votados e melhor avaliados dos estados unidos, dos gêneros crime ou guerra, lançados nos últimos 5 anos (2019-2024) 
+2. Existe alguma relação entre a popularidade dos atores e dos filmes de guerra ou crime mais populares nos últimos 5 anos? E com os filmes mais votados e melhor avaliados? 
 
 ## Segundo passo: Explicação dos motivadores de cada API
-Primeiro eu puxei os dados dos filmes de crime ou guerra dos últimos 4 anos que tiveram maior quantidade de votos, pois se eu puxar por nota, virão filmes com poucas avaliações, visto que tem filmes com nota 10 que só tiveram 2 votos, por exemplo. Então para pegar os filmes melhor votados, eu tenho que pegar da amostra dos filmes mais votados também
+Primeiro eu puxei os dados dos filmes de crime ou guerra dos últimos 5 anos que tiveram maior quantidade de votos, pois se eu puxar apenas por nota, virão filmes com poucas avaliações, visto que tem filmes com nota 10 que só tiveram 2 votos, por exemplo. Então para pegar os filmes melhor votados, eu tenho que pegar os dados dentro dos filmes mais votados.
 
-Também, peguei: a api de popularidade dos filmes, dos últimos 4 anos; a api com a lista de popularidades dos atores e a api com os detalhes dos filmes. 
+Também, peguei: a api de popularidade dos filmes, dos últimos 5 anos; a api com a lista de popularidades dos atores e a api com os detalhes dos filmes. 
 
-A api de popularidade dos filmes eu puxei para ver se tem relação a popularidade dos filmes com a popularidade dos atores. A popularidade dos filmes está filtrada para os últimos 4 anos, mas a dos atores não tem filtro de data, então abrangi a pergunta para ver se a popularidade dos atores tem relação com a popularidade dos filmes ou com a avaliação dos filmes.
+A api de popularidade dos filmes eu puxei para ver se tem relação a popularidade dos filmes com a popularidade dos atores, visto que a api de popularidade dos atores mostra os filmes pelos quais eles são mais conhecidos. Também, abrangi a pergunta para ver se a popularidade dos atores tem relação com a popularidade dos filmes ou com a avaliação dos filmes, para entender se o sucesso dos filmes mais conhecidos dos atores tem relação com a popularidade ou com a nota destes. 
 
-Puxei essa quantidade de dados para facilitar a filtragem dos dados para a análise e também para conseguir fazer a associação deles com o CSV. Outro detalhe é que, puxei alguns dados repitidos com os dados presentes no CSV, porque o CSV tem alguns dados destoantes da API do TMDB e os dados do CSV parecem ir apenas até 2022, então puxei esses dados pela api pois parecem mais certos. 
+Puxei essa quantidade de dados para facilitar a filtragem dos dados para a análise e também para conseguir fazer a associação deles com o CSV. Tem muitos filmes com dados incertos, então é mais fácil puxar resultados melhores com dados mais filtrados. Outro detalhe é que, puxei alguns dados repitidos com os dados presentes no CSV porque o CSV tem alguns dados destoantes da API do TMDB e, os dados do CSV parecem ir apenas até 2022, então puxei esses dados pela API pois estes parecem mais condizentes com os outros dados da API. 
 Exemplo do filme "Knives Out" que tem notas e quantidade de votos levemente diferentes na API e no CSV
 ![Image](/sprint_07/Evidencias/08.png)
 
@@ -25,9 +25,9 @@ Por fim, para pegar os ids dos filmes na api de detalhes dos filmes, peguei os i
 Ao fim do código, coloquei algumas mensagens para me mostrar a quantidade de itens e páginas retornadas ao total por requisição da API. Até para, caso o código dê algum problema, ficar mais fácil entender em que ponto esse problema ocorreu.
 
 - Os arquivos JSON tem 100 registros cada
-- Limitei para a URL puxar até 300 páginas de dados
+- Limitei para a URL puxar até 300 páginas de dados de cada requisição feita, então de cada API, será retornado dados de até 300 páginas.
 - Nenhum arquivo JSON chegou a 10 mb
-- Os dados trazidos repetiram alguns dados fornecidos pelo CSV porque, como eu disse, o CSV só vai até 2022 e tem dados diferentes da API nos quesitos que eu preciso analisar para responder às perguntas
+- Os dados trazidos repetiram alguns dados fornecidos pelo CSV porque, como eu disse, o CSV só vai até 2022 e tem dados diferentes da API nos quesitos que eu preciso analisar para responder as perguntas
 - Adicionei uma Layer ao Lambda para rodar as bibliotecas e aumentei um pouco o tempo de execução do CloudWatch para puxar os dados da API.  
 
 ### Evidências da execução do código no Lamdba 
