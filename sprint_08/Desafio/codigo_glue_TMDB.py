@@ -22,7 +22,7 @@ target_path = args['S3_TARGET_PATH']
 
 # Extrair a data de coleta do caminho S3
 s3_path_parts = source_file.split('/')
-data_coleta = s3_path_parts[-4] + s3_path_parts[-3] + s3_path_parts[-2]
+data_coleta = f"{s3_path_parts[-4]}-{s3_path_parts[-3]}-{s3_path_parts[-2]}"
 
 # Leitura dos dados JSON do TMDB da Raw Zone
 df = glueContext.create_dynamic_frame.from_options(
@@ -38,7 +38,7 @@ df = glueContext.create_dynamic_frame.from_options(
 print("Esquema inicial:")
 df.printSchema()
 
-# Adicionando a coluna 'dt' com a data de coleta extraída
+# Adicionando a coluna 'dt' com a data de coleta formatada como 'yyyy-MM-dd'
 spark_df = df.toDF()
 spark_df = spark_df.withColumn("dt", lit(data_coleta))
 
