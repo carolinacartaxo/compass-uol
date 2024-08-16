@@ -7,8 +7,8 @@
 O CSV possui os dados dos filmes puxados da plataforma do IMDB. Considerando isso, posso responder a primeira pergunta só com os dados retirados dele através dos dados "notaMedia", "numeroVotos", "genero" e "anoLancamento".
 Já para a segunda pergunta, preciso saber a popularidade dos filmes dos gêneros crime ou guerra mais populares lançados entre 2018 a 2023 e esse dado não tem no CSV. Para pegar esse dado puxei dois tipos de APIs do TMDB: a API de popularidade dos filmes dos gêneros crime ou guerra lançados entre 2018 a 2023; e a API de detalhes dos filmes, visto que na parte de detalhes tenho o código do IMDB dos filmes.
 
-O CSV não tem dados de popularidades dos filmes, mas a API de popularidade dos filmes nos possibilita puxar a pontuação de popularidade destes, permitindo que filtremos esses filmes por gêneros e ano de lançamento. Dessa API eu peguei apenas o "id" e a "popularity", que corresponde à pontuação de popularidade do filme, e filtrei por filmes dos gêneros "guerra" ou crime" lançados entre 2018 a 2023.
-Esse filtro já nos permite pegar os 10 filmes mais populares com os requisitos da pergunta e, a partir disso, pegar as atrizes e os atores que estrelaram nestes para que possamos tirar a proporção final .
+O CSV não tem dados de popularidades dos filmes, mas a API de popularidade dos filmes nos possibilita puxar a pontuação de popularidade destes, permitindo que filtremos esses filmes por gêneros e ano de lançamento. Peguei a pontuação de popularidade do filme, e filtrei por filmes dos gêneros "guerra" ou crime" lançados entre 2018 a 2023.
+Esse filtro já nos permite pegar os 10 filmes mais populares com os requisitos da pergunta e, a partir disso, pegar as atrizes e os atores que estrelaram nestes para que possamos tirar a proporção final com os dados do CSV.
 
 ![Image](/sprint_07/Evidencias/08.png)
 
@@ -35,7 +35,7 @@ Já os dados do TMDB, como já estavam filtrados, apenas realizei a puxada dele 
 ![Image](/sprint_08/Evidencias/10.png)
 ![Image](/sprint_08/Evidencias/11.png)
 ![Image](/sprint_08/Evidencias/12.png)
-![Image](/sprint_08/Evidencias/13.png)
+![Image](/sprint_08/Evidencias/18.png)
 ![Image](/sprint_08/Evidencias/14.png)
 ![Image](/sprint_08/Evidencias/15.png)
 ![Image](/sprint_08/Evidencias/16.png)
