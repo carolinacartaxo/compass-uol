@@ -33,10 +33,8 @@ Já os dados do TMDB, como já estavam filtrados, apenas realizei a puxada dele 
 ![Image](/sprint_08/Evidencias/08.png)
 ![Image](/sprint_08/Evidencias/09.png)
 ![Image](/sprint_08/Evidencias/10.png)
-![Image](/sprint_08/Evidencias/11.png)
-![Image](/sprint_08/Evidencias/12.png)
 ![Image](/sprint_08/Evidencias/18.png)
-![Image](/sprint_08/Evidencias/14.png)
+![Image](/sprint_08/Evidencias/12.png)
 ![Image](/sprint_08/Evidencias/15.png)
 ![Image](/sprint_08/Evidencias/16.png)
 
