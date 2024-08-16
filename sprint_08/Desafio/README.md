@@ -17,9 +17,9 @@ Partindo para o terceiro passo, na sprint passada eu puxei os dados necessários
 Considerando isso, nessa sprint eu puxei esses dados da camada Raw para a camada Trusted através do AWS Glue. No Glue, eu fiz uma filtragem dos dados do CSV para selecionar apenas aqueles relevantes para a análise, ou seja, aqueles do gênero "War" ou "Crime" e com filmes cuja data de lançamento esteve entre 2018 a 2023.
 Já os dados do TMDB, como já estavam filtrados, apenas realizei a puxada dele e o seu particionamento por data, conforme pediu o desafio 
 
-[Código Python representando o AWS Glue - CSV com explicações em markdown](/sprint_08/Desafio/codigo_glue_csv)
+[Código Python representando o AWS Glue - CSV com explicações em markdown](/sprint_08/Desafio/codigo_glue_csv.py)
 
-[Código Python representando o AWS Glue - TMDB com explicações em markdown](/sprint_08/Desafio/codigo_glue_TMDB)
+[Código Python representando o AWS Glue - TMDB com explicações em markdown](/sprint_08/Desafio/codigo_glue_TMDB.py)
 
 
 ## Evidências da execução do desafio no AWS Glue
