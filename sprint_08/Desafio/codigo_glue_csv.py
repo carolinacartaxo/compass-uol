@@ -32,7 +32,7 @@ print("Esquema inicial:")
 df.printSchema()
 
 print("Amostra dos dados:")
-df.show(20)  # Mostra as primeiras 20 linhas do dataset
+df.show(20) 
 
 # Filtragem dos dados para os gêneros 'Crime' ou 'War', lançados entre 2018 e 2023
 filtered_df = df.filter(lambda row: 
