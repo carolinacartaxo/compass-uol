@@ -19,6 +19,7 @@ job.init(args['JOB_NAME'], args)
 source_file = args['S3_INPUT_PATH']
 target_path = args['S3_TARGET_PATH']
 
+#Particionando os dados por data
 s3_path_parts = source_file.split('/')
 data_coleta = f"{s3_path_parts[-4]}-{s3_path_parts[-3]}-{s3_path_parts[-2]}"
 
@@ -31,6 +32,7 @@ df = glueContext.create_dynamic_frame.from_options(
     {"multiline": False}
 )
 
+# Me mostra os dados iniciais para eu ver o funcionamento do código
 print("Esquema inicial:")
 df.printSchema()
 
