@@ -39,12 +39,13 @@ filtered_df = df.filter(lambda row:
                         'Crime' in row['genero'] or 'War' in row['genero'] and 
                         2018 <= int(row['anoLancamento']) <= 2023)
 
-
+# Me mostrar os dados após sua filtragem 
 print("Esquema após a filtragem:")
 filtered_df.printSchema()
 print("Número de registros após a filtragem:", filtered_df.count())
 
 # Se houver registros, escreva o resultado na camada Trusted em formato Parquet
+# Caso dê erro na filtragem dos dados, me retornar que não foi encontrado registro
 if filtered_df.count() > 0:
     glueContext.write_dynamic_frame.from_options(
         frame=filtered_df,
