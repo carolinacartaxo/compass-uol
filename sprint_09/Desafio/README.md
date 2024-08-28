@@ -1,7 +1,7 @@
 # Explicação do Desafio 
 ## Primeiro passo: Perguntas a serem respondidas
 1. Top 10 filmes mais votados e melhor avaliados dos gêneros crime ou guerra lançados entre 2018 a 2023 
-2. Proporção de atores e atrizes que atuaram no top 10 filmes dos gêneros crime ou guerra mais populares lançados entre 2018 a 2023
+2. Proporção de atores e atrizes que atuaram no top 100 filmes dos gêneros crime ou guerra mais populares lançados entre 2018 a 2023
 
 ## Segundo passo: Explicação dos itens puxados para as tabelas e modelagem dimensional com a tabela fato e as tabelas dimensões
  Para responder minhas perguntas e para facilitar a visualização, eu puxei os seguintes dados: movie_id, actor_name, actor_gender, actor_profession, original_title, release_year, genre, fact_movies, popularity, average_rating e vote_count.
