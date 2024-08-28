@@ -1,8 +1,8 @@
 Pasta com os entregáveis da Sprint 09, quais sejam: 
-• Arquivo Markdown com evidências imagens/prints de realização do desafio, bem como documentação de explicação de cada parte executada.
-• Modelo de Dados da camada Refined desenhado em ferramenta de modelagem.
-• Código desenvolvido com devidos comentários:
-• Arquivo contendo código Python no formato .PY representando código AWS Glue para criar a camada
+- Arquivo Markdown com evidências imagens/prints de realização do desafio, bem como documentação de explicação de cada parte executada.
+- Modelo de Dados da camada Refined desenhado em ferramenta de modelagem.
+- Código desenvolvido com devidos comentários:
+- Arquivo contendo código Python no formato .PY representando código AWS Glue para criar a camada
 Refined.
 
 # Desafio
