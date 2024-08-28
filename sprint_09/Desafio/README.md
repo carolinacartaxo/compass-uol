@@ -15,7 +15,7 @@ A chave primária(PK) aqui será movies_id e ela será a PK tanto da tabela fact
 Após decidir minhas tabelas, criei um Job no Glue com as especificações pedidas no desafio e lá criei um código que lê dados do CSV e do TMDB da camada Trusted no S3, os transforma em tabelas de fato e dimensões, e salva o resultado transformado de volta no S3 em uma nova camada, chamada "Refined". 
 Para criar as tabelas, eu primeiro converti de DynamicFrame para DataFrame para usar as funções do spark. Depois, usando a lógica explicada anteriormente, criei minhas tabelas dimensões e fato. Na minha tabela fato eu fiz o join da tabela local pelo movie_id com a tabela popularity do TMDB. Na criação das tabelas eu também fiz um filtro para não pegar os dados nulos que estavam como "\\N" no CSV. 
 Por fim, fiz a conversão de Dataframe para DynamicFrame e os mandei para a zona Refined criada no job. 
-
+Ao finalizar tudo no Glue, criei um crawler e fiz um teste no Athena criando uma query para analisar se está tudo funcionando certo e o código rodou normalmente.
 
 [Código Python representando o AWS Glue - Refined com explicações em markdown](/sprint_09/Desafio/codigo_glue_refined.py)
 
