@@ -24,8 +24,7 @@ Mantive dessa forma no código, mas ainda puxei outro item da API do TMDB, um it
 Para os filmes que não fazem parte de franquia, o JSON os retornaria com os espaços dessas colunas como "null", vazios. 
 Visto que minha análise mudou, percebi que a tabela dim_actors não seria essencial à minha análise e acabei trabalhando apenas com as tabelas fact_movies e dim_movies
 
-NOVO DIAGRAMA_RELACIONAL
-
+![Image](/sprint_10/Desafio/diagrama_relacional_atual.png)
 
 
 ## Terceiro passo: correções no código do Glue
@@ -39,7 +38,7 @@ Ainda nos meus código no Glue, alterei meu código da camada refined (agora cri
 Durante esses processos, na camada Trusted eu mantive o refinamento para o período de filmes lançados entre "2018 a 2023" e para filmes dos gêneros "crime" ou "guerra".
 <br />
 
-[Código Python representando o AWS Glue - Refined com explicações em markdown](/sprint_09/Desafio/codigo_glue_refined.py)
+[Código Python representando o AWS Glue - Refined com explicações em markdown](/sprint_10/Desafio/codigo_glue_refined.py)
 
 ## Quarto passo: construção do Dashboard
 Agora falando sobre o dashboard, minha hipótese ao criar o dashboard foi originalmente analisar se o número de votos ou a data de lançamento de filmes influencia na popularidade atual dos filmes.
@@ -58,21 +57,21 @@ O TMDB considera para a sua pontuação de popularidade dos Filmes os seguintes 
   <li> Pontuação dos dias anteriores </li>
 </ul>
 
-Analisando esses critérios e os dados, percebi que a popularidade é uma métrica difícil de ter relação com um só fator. 
+Estudando esses critérios e os dados, percebi que a popularidade é uma métrica difícil de ter relação com um só fator. 
 Filmes mais recentes tendem a ter uma pontuação de popularidade maior visto que mais pessoas vão favoritá-lo por ser mais recente e estar mais "visível" nas mídias.
 Analisando minha base de dados, percebi que, de 2018 a 2023, teve uma variação na média de popularidade total comparado ao número de filmes lançados em cada ano.
 Em 2018 e especialmente em 2020, a distribuição média de popularidade, se comparada à quantidade de filmes lançados, tem uma grande queda se comparado aos outros anos analisados
 Dito isso, peguei uma amostra dos 50 filmes mais populares e analisei o período que eles foram lançados. No segundo gráfico percebemos que poucos filmes do top 50 foram lançados em 2018 e em 2020, porém, a média de popularidade desses anos é bastante alta para poucos filmes, mas não há uma distorção tão grande na popularidade destes.
 <br />
 <br />
-FOTO DOS DOIS PRIMEIROS GRÁFICOS
+![Image](/sprint_10/Evidencias/02.png)
 <br />
 <br />
 Investigando mais aspectos que poderiam influenciar na popularidade, vi que não há uma relação entre a popularidade dos filmes e a nota média destes. Para isso, analisei uma amostra a partir dos 50 filmes mais votados já para tirar os outliers que seriam os dados com poucos votos e nota alta.
 <br />Ainda, a partir dos 50 filmes mais populares, analisei os gêneros acompanhantes dos gêneros de "Crime" ou "War"(Guerra) que mais se repetem e vi que filmes com elemento de Ação e Drama são mais preponderantes nos 50 filmes mais populares.
 <br />
 <br />
-FOTO DOS DOIS GRÁFICOS DO MEIO
+![Image](/sprint_10/Evidencias/03.png)
 <br />
 <br />
 Passando para a última linha do meu dashboard, analisei se a popularidade teria alguma relação com minha hipótese inicial de que o número de votos poderia influenciar diretamente na popularidade dos filmes.
@@ -81,7 +80,7 @@ Passando para a última linha do meu dashboard, analisei se a popularidade teria
 Esses filmes são "Bad Boys for Life" e "The Equalizer 2".
 <br />
 <br />
-FOTO DO PENÚLTIMO GRÁFICO E ZOOM NELE
+![Image](/sprint_10/Evidencias/04.png)
 <br />
 <br />
 <br />No último gráfico, realizei uma pesquisa dentro dos filmes mais votados e mais populares de quantos destes são filmes com franquia (usando aqui meus dados do bellongs_to_collection) ou não. Percebi que, entre os filmes mais votados, os filmes com franquia, apesar de serem lançados em menor quantidade, tem uma popularidade média muito superior aos filmes sem franquia.
@@ -89,6 +88,12 @@ Analisando todos esses aspectos, percebi que, tanto o filme "Bad Boys for Life" 
 <br /> Esse tipo de filme tem um nicho de público que acompanha os lançamentos de novos filmes das franquias. Os filmes também contam com atores de renome, mas a manutenção da sua popularidade poderia ser atribuída mais ao estilo de filme que parece ter um público engajado em acompanhá-los, o que explicaria a popularidade alta deles mesmo que eles tenham sido lançados em anos com poucos filmes populares e mesmo não sendo filmes de conhecimento público geral como "Joker" e "Batman". 
 <br />
 <br />
-FOTO DOS DOIS ÚLTIMOS GRÁFICOS
+![Image](/sprint_10/Evidencias/05.png)
 <br />
 <br />
+## Evidências da execução do desafio no AWS Glue
+![Image](/sprint_10/Evidencias/06.png)
+![Image](/sprint_10/Evidencias/07.png)
+![Image](/sprint_10/Evidencias/08.png)
+![Image](/sprint_10/Evidencias/09.png)
+![Image](/sprint_10/Evidencias/10.png)
