@@ -91,7 +91,7 @@ Analisando todos esses aspectos, percebi que, tanto o filme "Bad Boys for Life" 
 ![Image](/sprint_10/Evidencias/05.png)
 <br />
 <br />
-## Evidências da execução do desafio no AWS Glue
+## Evidências da execução do desafio
 ![Image](/sprint_10/Evidencias/06.png)
 ![Image](/sprint_10/Evidencias/07.png)
 ![Image](/sprint_10/Evidencias/08.png)
